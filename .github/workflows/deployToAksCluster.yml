@@ -10,9 +10,9 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     env:
-      ACR_LOGIN_SERVER: tawwinwithappplatformacrabouba.azurecr.io
+      ACR_LOGIN_SERVER: tawwinwithappplatformacrjdh202210.azurecr.io
       AKS_NAMESPACE: health-check
-      CONTAINER_IMAGE: tawwinwithappplatformacrabouba.azurecr.io/humongous-healthcare-api:${{ github.sha }}
+      CONTAINER_IMAGE: tawwinwithappplatformacrjdh202210.azurecr.io/humongous-healthcare-api:${{ github.sha }}
     steps:
     - uses: actions/checkout@master
     - uses: azure/docker-login@v1
