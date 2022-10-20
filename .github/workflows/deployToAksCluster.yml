@@ -1,4 +1,4 @@
-name: API - AKS - Build and deploy
+name: API - AKS - Build and deploy workshop
 on:
   push:
     branches:
