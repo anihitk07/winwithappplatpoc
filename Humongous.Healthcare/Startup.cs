@@ -55,7 +55,7 @@ namespace Humongous.Healthcare
             });
         }
         /// <summary>
-        /// Creates a Cosmos DB database and a container with the specified partition key.
+        /// Creates a Cosmos DB database and a container with the specified  partition key.
         /// </summary>
         /// <returns></returns>
         private static async Task<CosmosDbService> InitializeCosmosClientInstanceAsync(IConfigurationSection configurationSection)
