@@ -44,9 +44,7 @@ spec:
           httpGet:
             path: /HealthCheck
             port: 80
-            scheme: HTTP
         livenessProbe:
           httpGet:
             path: /HealthCheck
             port: 80
-            scheme: HTTP
